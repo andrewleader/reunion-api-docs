@@ -122,15 +122,28 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Notifications\BadgeGlyphs.cs" />
+    <Compile Include="UI\Notifications\BadgeManager.cs" />
+    <Compile Include="UI\Notifications\Notification.cs" />
     <Compile Include="UI\Notifications\NotificationBuilder.cs" />
     <Compile Include="UI\Notifications\NotificationCollection.cs" />
+    <Compile Include="UI\Notifications\NotificationCollectionManager.cs" />
     <Compile Include="UI\Notifications\NotificationManager.cs" />
-    <Compile Include="UI\Notifications\NotificationTarget.cs" />
+    <Compile Include="UI\Notifications\PeriodicUpdateInterval.cs" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="docfx.console">
+      <Version>2.56.2</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.10</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="docfx.json" />
+    <None Include="toc.yml" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

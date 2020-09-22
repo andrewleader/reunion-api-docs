@@ -1,0 +1,656 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Microsoft.UI.Notifications
+  name: Microsoft.UI.Notifications
+  href: api/Microsoft.UI.Notifications.html
+  commentId: N:Microsoft.UI.Notifications
+  fullName: Microsoft.UI.Notifications
+  nameWithType: Microsoft.UI.Notifications
+- uid: Microsoft.UI.Notifications.BadgeManager
+  name: BadgeManager
+  href: api/Microsoft.UI.Notifications.BadgeManager.html
+  commentId: T:Microsoft.UI.Notifications.BadgeManager
+  fullName: Microsoft.UI.Notifications.BadgeManager
+  nameWithType: BadgeManager
+- uid: Microsoft.UI.Notifications.BadgeManager.Clear
+  name: Clear()
+  href: api/Microsoft.UI.Notifications.BadgeManager.html#Microsoft_UI_Notifications_BadgeManager_Clear
+  commentId: M:Microsoft.UI.Notifications.BadgeManager.Clear
+  fullName: Microsoft.UI.Notifications.BadgeManager.Clear()
+  nameWithType: BadgeManager.Clear()
+- uid: Microsoft.UI.Notifications.BadgeManager.Clear(Windows.System.User)
+  name: Clear(User)
+  href: api/Microsoft.UI.Notifications.BadgeManager.html#Microsoft_UI_Notifications_BadgeManager_Clear_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.BadgeManager.Clear(Windows.System.User)
+  fullName: Microsoft.UI.Notifications.BadgeManager.Clear(Windows.System.User)
+  nameWithType: BadgeManager.Clear(User)
+- uid: Microsoft.UI.Notifications.BadgeManager.Clear*
+  name: Clear
+  href: api/Microsoft.UI.Notifications.BadgeManager.html#Microsoft_UI_Notifications_BadgeManager_Clear_
+  commentId: Overload:Microsoft.UI.Notifications.BadgeManager.Clear
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.BadgeManager.Clear
+  nameWithType: BadgeManager.Clear
+- uid: Microsoft.UI.Notifications.BadgeManager.Set(Microsoft.UI.Notifications.BadgeValue)
+  name: Set(BadgeValue)
+  href: api/Microsoft.UI.Notifications.BadgeManager.html#Microsoft_UI_Notifications_BadgeManager_Set_Microsoft_UI_Notifications_BadgeValue_
+  commentId: M:Microsoft.UI.Notifications.BadgeManager.Set(Microsoft.UI.Notifications.BadgeValue)
+  fullName: Microsoft.UI.Notifications.BadgeManager.Set(Microsoft.UI.Notifications.BadgeValue)
+  nameWithType: BadgeManager.Set(BadgeValue)
+- uid: Microsoft.UI.Notifications.BadgeManager.Set(Microsoft.UI.Notifications.BadgeValue,Windows.System.User)
+  name: Set(BadgeValue, User)
+  href: api/Microsoft.UI.Notifications.BadgeManager.html#Microsoft_UI_Notifications_BadgeManager_Set_Microsoft_UI_Notifications_BadgeValue_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.BadgeManager.Set(Microsoft.UI.Notifications.BadgeValue,Windows.System.User)
+  fullName: Microsoft.UI.Notifications.BadgeManager.Set(Microsoft.UI.Notifications.BadgeValue, Windows.System.User)
+  nameWithType: BadgeManager.Set(BadgeValue, User)
+- uid: Microsoft.UI.Notifications.BadgeManager.Set(System.UInt32)
+  name: Set(UInt32)
+  href: api/Microsoft.UI.Notifications.BadgeManager.html#Microsoft_UI_Notifications_BadgeManager_Set_System_UInt32_
+  commentId: M:Microsoft.UI.Notifications.BadgeManager.Set(System.UInt32)
+  fullName: Microsoft.UI.Notifications.BadgeManager.Set(System.UInt32)
+  nameWithType: BadgeManager.Set(UInt32)
+- uid: Microsoft.UI.Notifications.BadgeManager.Set(System.UInt32,Windows.System.User)
+  name: Set(UInt32, User)
+  href: api/Microsoft.UI.Notifications.BadgeManager.html#Microsoft_UI_Notifications_BadgeManager_Set_System_UInt32_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.BadgeManager.Set(System.UInt32,Windows.System.User)
+  fullName: Microsoft.UI.Notifications.BadgeManager.Set(System.UInt32, Windows.System.User)
+  nameWithType: BadgeManager.Set(UInt32, User)
+- uid: Microsoft.UI.Notifications.BadgeManager.Set*
+  name: Set
+  href: api/Microsoft.UI.Notifications.BadgeManager.html#Microsoft_UI_Notifications_BadgeManager_Set_
+  commentId: Overload:Microsoft.UI.Notifications.BadgeManager.Set
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.BadgeManager.Set
+  nameWithType: BadgeManager.Set
+- uid: Microsoft.UI.Notifications.BadgeManager.StartPeriodicUpdate(System.Uri,Microsoft.UI.Notifications.PeriodicUpdateInterval)
+  name: StartPeriodicUpdate(Uri, PeriodicUpdateInterval)
+  href: api/Microsoft.UI.Notifications.BadgeManager.html#Microsoft_UI_Notifications_BadgeManager_StartPeriodicUpdate_System_Uri_Microsoft_UI_Notifications_PeriodicUpdateInterval_
+  commentId: M:Microsoft.UI.Notifications.BadgeManager.StartPeriodicUpdate(System.Uri,Microsoft.UI.Notifications.PeriodicUpdateInterval)
+  fullName: Microsoft.UI.Notifications.BadgeManager.StartPeriodicUpdate(System.Uri, Microsoft.UI.Notifications.PeriodicUpdateInterval)
+  nameWithType: BadgeManager.StartPeriodicUpdate(Uri, PeriodicUpdateInterval)
+- uid: Microsoft.UI.Notifications.BadgeManager.StartPeriodicUpdate(System.Uri,Microsoft.UI.Notifications.PeriodicUpdateInterval,Windows.System.User)
+  name: StartPeriodicUpdate(Uri, PeriodicUpdateInterval, User)
+  href: api/Microsoft.UI.Notifications.BadgeManager.html#Microsoft_UI_Notifications_BadgeManager_StartPeriodicUpdate_System_Uri_Microsoft_UI_Notifications_PeriodicUpdateInterval_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.BadgeManager.StartPeriodicUpdate(System.Uri,Microsoft.UI.Notifications.PeriodicUpdateInterval,Windows.System.User)
+  fullName: Microsoft.UI.Notifications.BadgeManager.StartPeriodicUpdate(System.Uri, Microsoft.UI.Notifications.PeriodicUpdateInterval, Windows.System.User)
+  nameWithType: BadgeManager.StartPeriodicUpdate(Uri, PeriodicUpdateInterval, User)
+- uid: Microsoft.UI.Notifications.BadgeManager.StartPeriodicUpdate*
+  name: StartPeriodicUpdate
+  href: api/Microsoft.UI.Notifications.BadgeManager.html#Microsoft_UI_Notifications_BadgeManager_StartPeriodicUpdate_
+  commentId: Overload:Microsoft.UI.Notifications.BadgeManager.StartPeriodicUpdate
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.BadgeManager.StartPeriodicUpdate
+  nameWithType: BadgeManager.StartPeriodicUpdate
+- uid: Microsoft.UI.Notifications.BadgeManager.StopPeriodicUpdate
+  name: StopPeriodicUpdate()
+  href: api/Microsoft.UI.Notifications.BadgeManager.html#Microsoft_UI_Notifications_BadgeManager_StopPeriodicUpdate
+  commentId: M:Microsoft.UI.Notifications.BadgeManager.StopPeriodicUpdate
+  fullName: Microsoft.UI.Notifications.BadgeManager.StopPeriodicUpdate()
+  nameWithType: BadgeManager.StopPeriodicUpdate()
+- uid: Microsoft.UI.Notifications.BadgeManager.StopPeriodicUpdate(Windows.System.User)
+  name: StopPeriodicUpdate(User)
+  href: api/Microsoft.UI.Notifications.BadgeManager.html#Microsoft_UI_Notifications_BadgeManager_StopPeriodicUpdate_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.BadgeManager.StopPeriodicUpdate(Windows.System.User)
+  fullName: Microsoft.UI.Notifications.BadgeManager.StopPeriodicUpdate(Windows.System.User)
+  nameWithType: BadgeManager.StopPeriodicUpdate(User)
+- uid: Microsoft.UI.Notifications.BadgeManager.StopPeriodicUpdate*
+  name: StopPeriodicUpdate
+  href: api/Microsoft.UI.Notifications.BadgeManager.html#Microsoft_UI_Notifications_BadgeManager_StopPeriodicUpdate_
+  commentId: Overload:Microsoft.UI.Notifications.BadgeManager.StopPeriodicUpdate
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.BadgeManager.StopPeriodicUpdate
+  nameWithType: BadgeManager.StopPeriodicUpdate
+- uid: Microsoft.UI.Notifications.BadgeValue
+  name: BadgeValue
+  href: api/Microsoft.UI.Notifications.BadgeValue.html
+  commentId: T:Microsoft.UI.Notifications.BadgeValue
+  fullName: Microsoft.UI.Notifications.BadgeValue
+  nameWithType: BadgeValue
+- uid: Microsoft.UI.Notifications.BadgeValue.Alarm
+  name: Alarm
+  href: api/Microsoft.UI.Notifications.BadgeValue.html#Microsoft_UI_Notifications_BadgeValue_Alarm
+  commentId: F:Microsoft.UI.Notifications.BadgeValue.Alarm
+  fullName: Microsoft.UI.Notifications.BadgeValue.Alarm
+  nameWithType: BadgeValue.Alarm
+- uid: Microsoft.UI.Notifications.BadgeValue.Alert
+  name: Alert
+  href: api/Microsoft.UI.Notifications.BadgeValue.html#Microsoft_UI_Notifications_BadgeValue_Alert
+  commentId: F:Microsoft.UI.Notifications.BadgeValue.Alert
+  fullName: Microsoft.UI.Notifications.BadgeValue.Alert
+  nameWithType: BadgeValue.Alert
+- uid: Microsoft.UI.Notifications.Notification
+  name: Notification
+  href: api/Microsoft.UI.Notifications.Notification.html
+  commentId: T:Microsoft.UI.Notifications.Notification
+  fullName: Microsoft.UI.Notifications.Notification
+  nameWithType: Notification
+- uid: Microsoft.UI.Notifications.Notification.Group
+  name: Group
+  href: api/Microsoft.UI.Notifications.Notification.html#Microsoft_UI_Notifications_Notification_Group
+  commentId: P:Microsoft.UI.Notifications.Notification.Group
+  fullName: Microsoft.UI.Notifications.Notification.Group
+  nameWithType: Notification.Group
+- uid: Microsoft.UI.Notifications.Notification.Group*
+  name: Group
+  href: api/Microsoft.UI.Notifications.Notification.html#Microsoft_UI_Notifications_Notification_Group_
+  commentId: Overload:Microsoft.UI.Notifications.Notification.Group
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.Notification.Group
+  nameWithType: Notification.Group
+- uid: Microsoft.UI.Notifications.Notification.Tag
+  name: Tag
+  href: api/Microsoft.UI.Notifications.Notification.html#Microsoft_UI_Notifications_Notification_Tag
+  commentId: P:Microsoft.UI.Notifications.Notification.Tag
+  fullName: Microsoft.UI.Notifications.Notification.Tag
+  nameWithType: Notification.Tag
+- uid: Microsoft.UI.Notifications.Notification.Tag*
+  name: Tag
+  href: api/Microsoft.UI.Notifications.Notification.html#Microsoft_UI_Notifications_Notification_Tag_
+  commentId: Overload:Microsoft.UI.Notifications.Notification.Tag
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.Notification.Tag
+  nameWithType: Notification.Tag
+- uid: Microsoft.UI.Notifications.NotificationBuilder
+  name: NotificationBuilder
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html
+  commentId: T:Microsoft.UI.Notifications.NotificationBuilder
+  fullName: Microsoft.UI.Notifications.NotificationBuilder
+  nameWithType: NotificationBuilder
+- uid: Microsoft.UI.Notifications.NotificationBuilder.#ctor
+  name: NotificationBuilder()
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder__ctor
+  commentId: M:Microsoft.UI.Notifications.NotificationBuilder.#ctor
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.NotificationBuilder()
+  nameWithType: NotificationBuilder.NotificationBuilder()
+- uid: Microsoft.UI.Notifications.NotificationBuilder.#ctor*
+  name: NotificationBuilder
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder__ctor_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationBuilder.#ctor
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.NotificationBuilder
+  nameWithType: NotificationBuilder.NotificationBuilder
+- uid: Microsoft.UI.Notifications.NotificationBuilder.AddText(System.String)
+  name: AddText(String)
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder_AddText_System_String_
+  commentId: M:Microsoft.UI.Notifications.NotificationBuilder.AddText(System.String)
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.AddText(System.String)
+  nameWithType: NotificationBuilder.AddText(String)
+- uid: Microsoft.UI.Notifications.NotificationBuilder.AddText*
+  name: AddText
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder_AddText_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationBuilder.AddText
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.AddText
+  nameWithType: NotificationBuilder.AddText
+- uid: Microsoft.UI.Notifications.NotificationBuilder.BuildToastNotification
+  name: BuildToastNotification()
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder_BuildToastNotification
+  commentId: M:Microsoft.UI.Notifications.NotificationBuilder.BuildToastNotification
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.BuildToastNotification()
+  nameWithType: NotificationBuilder.BuildToastNotification()
+- uid: Microsoft.UI.Notifications.NotificationBuilder.BuildToastNotification*
+  name: BuildToastNotification
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder_BuildToastNotification_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationBuilder.BuildToastNotification
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.BuildToastNotification
+  nameWithType: NotificationBuilder.BuildToastNotification
+- uid: Microsoft.UI.Notifications.NotificationBuilder.BuildXml
+  name: BuildXml()
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder_BuildXml
+  commentId: M:Microsoft.UI.Notifications.NotificationBuilder.BuildXml
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.BuildXml()
+  nameWithType: NotificationBuilder.BuildXml()
+- uid: Microsoft.UI.Notifications.NotificationBuilder.BuildXml*
+  name: BuildXml
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder_BuildXml_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationBuilder.BuildXml
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.BuildXml
+  nameWithType: NotificationBuilder.BuildXml
+- uid: Microsoft.UI.Notifications.NotificationBuilder.InitializeFromToastNotification(Windows.UI.Notifications.ToastNotification)
+  name: InitializeFromToastNotification(ToastNotification)
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder_InitializeFromToastNotification_Windows_UI_Notifications_ToastNotification_
+  commentId: M:Microsoft.UI.Notifications.NotificationBuilder.InitializeFromToastNotification(Windows.UI.Notifications.ToastNotification)
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.InitializeFromToastNotification(Windows.UI.Notifications.ToastNotification)
+  nameWithType: NotificationBuilder.InitializeFromToastNotification(ToastNotification)
+- uid: Microsoft.UI.Notifications.NotificationBuilder.InitializeFromToastNotification*
+  name: InitializeFromToastNotification
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder_InitializeFromToastNotification_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationBuilder.InitializeFromToastNotification
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.InitializeFromToastNotification
+  nameWithType: NotificationBuilder.InitializeFromToastNotification
+- uid: Microsoft.UI.Notifications.NotificationBuilder.InitializeFromXml(Windows.Data.Xml.Dom.XmlDocument)
+  name: InitializeFromXml(XmlDocument)
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder_InitializeFromXml_Windows_Data_Xml_Dom_XmlDocument_
+  commentId: M:Microsoft.UI.Notifications.NotificationBuilder.InitializeFromXml(Windows.Data.Xml.Dom.XmlDocument)
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.InitializeFromXml(Windows.Data.Xml.Dom.XmlDocument)
+  nameWithType: NotificationBuilder.InitializeFromXml(XmlDocument)
+- uid: Microsoft.UI.Notifications.NotificationBuilder.InitializeFromXml*
+  name: InitializeFromXml
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder_InitializeFromXml_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationBuilder.InitializeFromXml
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.InitializeFromXml
+  nameWithType: NotificationBuilder.InitializeFromXml
+- uid: Microsoft.UI.Notifications.NotificationBuilder.Schedule(System.DateTimeOffset)
+  name: Schedule(DateTimeOffset)
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder_Schedule_System_DateTimeOffset_
+  commentId: M:Microsoft.UI.Notifications.NotificationBuilder.Schedule(System.DateTimeOffset)
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.Schedule(System.DateTimeOffset)
+  nameWithType: NotificationBuilder.Schedule(DateTimeOffset)
+- uid: Microsoft.UI.Notifications.NotificationBuilder.Schedule(System.DateTimeOffset,System.String)
+  name: Schedule(DateTimeOffset, String)
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder_Schedule_System_DateTimeOffset_System_String_
+  commentId: M:Microsoft.UI.Notifications.NotificationBuilder.Schedule(System.DateTimeOffset,System.String)
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.Schedule(System.DateTimeOffset, System.String)
+  nameWithType: NotificationBuilder.Schedule(DateTimeOffset, String)
+- uid: Microsoft.UI.Notifications.NotificationBuilder.Schedule(System.DateTimeOffset,System.String,Windows.System.User)
+  name: Schedule(DateTimeOffset, String, User)
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder_Schedule_System_DateTimeOffset_System_String_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.NotificationBuilder.Schedule(System.DateTimeOffset,System.String,Windows.System.User)
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.Schedule(System.DateTimeOffset, System.String, Windows.System.User)
+  nameWithType: NotificationBuilder.Schedule(DateTimeOffset, String, User)
+- uid: Microsoft.UI.Notifications.NotificationBuilder.Schedule(System.DateTimeOffset,Windows.System.User)
+  name: Schedule(DateTimeOffset, User)
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder_Schedule_System_DateTimeOffset_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.NotificationBuilder.Schedule(System.DateTimeOffset,Windows.System.User)
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.Schedule(System.DateTimeOffset, Windows.System.User)
+  nameWithType: NotificationBuilder.Schedule(DateTimeOffset, User)
+- uid: Microsoft.UI.Notifications.NotificationBuilder.Schedule*
+  name: Schedule
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder_Schedule_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationBuilder.Schedule
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.Schedule
+  nameWithType: NotificationBuilder.Schedule
+- uid: Microsoft.UI.Notifications.NotificationBuilder.Show
+  name: Show()
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder_Show
+  commentId: M:Microsoft.UI.Notifications.NotificationBuilder.Show
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.Show()
+  nameWithType: NotificationBuilder.Show()
+- uid: Microsoft.UI.Notifications.NotificationBuilder.Show(System.String)
+  name: Show(String)
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder_Show_System_String_
+  commentId: M:Microsoft.UI.Notifications.NotificationBuilder.Show(System.String)
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.Show(System.String)
+  nameWithType: NotificationBuilder.Show(String)
+- uid: Microsoft.UI.Notifications.NotificationBuilder.Show(System.String,Windows.System.User)
+  name: Show(String, User)
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder_Show_System_String_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.NotificationBuilder.Show(System.String,Windows.System.User)
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.Show(System.String, Windows.System.User)
+  nameWithType: NotificationBuilder.Show(String, User)
+- uid: Microsoft.UI.Notifications.NotificationBuilder.Show(Windows.System.User)
+  name: Show(User)
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder_Show_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.NotificationBuilder.Show(Windows.System.User)
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.Show(Windows.System.User)
+  nameWithType: NotificationBuilder.Show(User)
+- uid: Microsoft.UI.Notifications.NotificationBuilder.Show*
+  name: Show
+  href: api/Microsoft.UI.Notifications.NotificationBuilder.html#Microsoft_UI_Notifications_NotificationBuilder_Show_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationBuilder.Show
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationBuilder.Show
+  nameWithType: NotificationBuilder.Show
+- uid: Microsoft.UI.Notifications.NotificationCollection
+  name: NotificationCollection
+  href: api/Microsoft.UI.Notifications.NotificationCollection.html
+  commentId: T:Microsoft.UI.Notifications.NotificationCollection
+  fullName: Microsoft.UI.Notifications.NotificationCollection
+  nameWithType: NotificationCollection
+- uid: Microsoft.UI.Notifications.NotificationCollection.#ctor(System.String,System.String,System.String,System.Uri)
+  name: NotificationCollection(String, String, String, Uri)
+  href: api/Microsoft.UI.Notifications.NotificationCollection.html#Microsoft_UI_Notifications_NotificationCollection__ctor_System_String_System_String_System_String_System_Uri_
+  commentId: M:Microsoft.UI.Notifications.NotificationCollection.#ctor(System.String,System.String,System.String,System.Uri)
+  fullName: Microsoft.UI.Notifications.NotificationCollection.NotificationCollection(System.String, System.String, System.String, System.Uri)
+  nameWithType: NotificationCollection.NotificationCollection(String, String, String, Uri)
+- uid: Microsoft.UI.Notifications.NotificationCollection.#ctor*
+  name: NotificationCollection
+  href: api/Microsoft.UI.Notifications.NotificationCollection.html#Microsoft_UI_Notifications_NotificationCollection__ctor_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationCollection.#ctor
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationCollection.NotificationCollection
+  nameWithType: NotificationCollection.NotificationCollection
+- uid: Microsoft.UI.Notifications.NotificationCollection.DisplayName
+  name: DisplayName
+  href: api/Microsoft.UI.Notifications.NotificationCollection.html#Microsoft_UI_Notifications_NotificationCollection_DisplayName
+  commentId: P:Microsoft.UI.Notifications.NotificationCollection.DisplayName
+  fullName: Microsoft.UI.Notifications.NotificationCollection.DisplayName
+  nameWithType: NotificationCollection.DisplayName
+- uid: Microsoft.UI.Notifications.NotificationCollection.DisplayName*
+  name: DisplayName
+  href: api/Microsoft.UI.Notifications.NotificationCollection.html#Microsoft_UI_Notifications_NotificationCollection_DisplayName_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationCollection.DisplayName
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationCollection.DisplayName
+  nameWithType: NotificationCollection.DisplayName
+- uid: Microsoft.UI.Notifications.NotificationCollection.IconUri
+  name: IconUri
+  href: api/Microsoft.UI.Notifications.NotificationCollection.html#Microsoft_UI_Notifications_NotificationCollection_IconUri
+  commentId: P:Microsoft.UI.Notifications.NotificationCollection.IconUri
+  fullName: Microsoft.UI.Notifications.NotificationCollection.IconUri
+  nameWithType: NotificationCollection.IconUri
+- uid: Microsoft.UI.Notifications.NotificationCollection.IconUri*
+  name: IconUri
+  href: api/Microsoft.UI.Notifications.NotificationCollection.html#Microsoft_UI_Notifications_NotificationCollection_IconUri_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationCollection.IconUri
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationCollection.IconUri
+  nameWithType: NotificationCollection.IconUri
+- uid: Microsoft.UI.Notifications.NotificationCollection.Id
+  name: Id
+  href: api/Microsoft.UI.Notifications.NotificationCollection.html#Microsoft_UI_Notifications_NotificationCollection_Id
+  commentId: P:Microsoft.UI.Notifications.NotificationCollection.Id
+  fullName: Microsoft.UI.Notifications.NotificationCollection.Id
+  nameWithType: NotificationCollection.Id
+- uid: Microsoft.UI.Notifications.NotificationCollection.Id*
+  name: Id
+  href: api/Microsoft.UI.Notifications.NotificationCollection.html#Microsoft_UI_Notifications_NotificationCollection_Id_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationCollection.Id
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationCollection.Id
+  nameWithType: NotificationCollection.Id
+- uid: Microsoft.UI.Notifications.NotificationCollection.LaunchArgs
+  name: LaunchArgs
+  href: api/Microsoft.UI.Notifications.NotificationCollection.html#Microsoft_UI_Notifications_NotificationCollection_LaunchArgs
+  commentId: P:Microsoft.UI.Notifications.NotificationCollection.LaunchArgs
+  fullName: Microsoft.UI.Notifications.NotificationCollection.LaunchArgs
+  nameWithType: NotificationCollection.LaunchArgs
+- uid: Microsoft.UI.Notifications.NotificationCollection.LaunchArgs*
+  name: LaunchArgs
+  href: api/Microsoft.UI.Notifications.NotificationCollection.html#Microsoft_UI_Notifications_NotificationCollection_LaunchArgs_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationCollection.LaunchArgs
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationCollection.LaunchArgs
+  nameWithType: NotificationCollection.LaunchArgs
+- uid: Microsoft.UI.Notifications.NotificationCollectionManager
+  name: NotificationCollectionManager
+  href: api/Microsoft.UI.Notifications.NotificationCollectionManager.html
+  commentId: T:Microsoft.UI.Notifications.NotificationCollectionManager
+  fullName: Microsoft.UI.Notifications.NotificationCollectionManager
+  nameWithType: NotificationCollectionManager
+- uid: Microsoft.UI.Notifications.NotificationCollectionManager.GetAsync
+  name: GetAsync()
+  href: api/Microsoft.UI.Notifications.NotificationCollectionManager.html#Microsoft_UI_Notifications_NotificationCollectionManager_GetAsync
+  commentId: M:Microsoft.UI.Notifications.NotificationCollectionManager.GetAsync
+  fullName: Microsoft.UI.Notifications.NotificationCollectionManager.GetAsync()
+  nameWithType: NotificationCollectionManager.GetAsync()
+- uid: Microsoft.UI.Notifications.NotificationCollectionManager.GetAsync(System.String)
+  name: GetAsync(String)
+  href: api/Microsoft.UI.Notifications.NotificationCollectionManager.html#Microsoft_UI_Notifications_NotificationCollectionManager_GetAsync_System_String_
+  commentId: M:Microsoft.UI.Notifications.NotificationCollectionManager.GetAsync(System.String)
+  fullName: Microsoft.UI.Notifications.NotificationCollectionManager.GetAsync(System.String)
+  nameWithType: NotificationCollectionManager.GetAsync(String)
+- uid: Microsoft.UI.Notifications.NotificationCollectionManager.GetAsync(System.String,Windows.System.User)
+  name: GetAsync(String, User)
+  href: api/Microsoft.UI.Notifications.NotificationCollectionManager.html#Microsoft_UI_Notifications_NotificationCollectionManager_GetAsync_System_String_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.NotificationCollectionManager.GetAsync(System.String,Windows.System.User)
+  fullName: Microsoft.UI.Notifications.NotificationCollectionManager.GetAsync(System.String, Windows.System.User)
+  nameWithType: NotificationCollectionManager.GetAsync(String, User)
+- uid: Microsoft.UI.Notifications.NotificationCollectionManager.GetAsync(Windows.System.User)
+  name: GetAsync(User)
+  href: api/Microsoft.UI.Notifications.NotificationCollectionManager.html#Microsoft_UI_Notifications_NotificationCollectionManager_GetAsync_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.NotificationCollectionManager.GetAsync(Windows.System.User)
+  fullName: Microsoft.UI.Notifications.NotificationCollectionManager.GetAsync(Windows.System.User)
+  nameWithType: NotificationCollectionManager.GetAsync(User)
+- uid: Microsoft.UI.Notifications.NotificationCollectionManager.GetAsync*
+  name: GetAsync
+  href: api/Microsoft.UI.Notifications.NotificationCollectionManager.html#Microsoft_UI_Notifications_NotificationCollectionManager_GetAsync_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationCollectionManager.GetAsync
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationCollectionManager.GetAsync
+  nameWithType: NotificationCollectionManager.GetAsync
+- uid: Microsoft.UI.Notifications.NotificationCollectionManager.RemoveAllAsync
+  name: RemoveAllAsync()
+  href: api/Microsoft.UI.Notifications.NotificationCollectionManager.html#Microsoft_UI_Notifications_NotificationCollectionManager_RemoveAllAsync
+  commentId: M:Microsoft.UI.Notifications.NotificationCollectionManager.RemoveAllAsync
+  fullName: Microsoft.UI.Notifications.NotificationCollectionManager.RemoveAllAsync()
+  nameWithType: NotificationCollectionManager.RemoveAllAsync()
+- uid: Microsoft.UI.Notifications.NotificationCollectionManager.RemoveAllAsync(Windows.System.User)
+  name: RemoveAllAsync(User)
+  href: api/Microsoft.UI.Notifications.NotificationCollectionManager.html#Microsoft_UI_Notifications_NotificationCollectionManager_RemoveAllAsync_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.NotificationCollectionManager.RemoveAllAsync(Windows.System.User)
+  fullName: Microsoft.UI.Notifications.NotificationCollectionManager.RemoveAllAsync(Windows.System.User)
+  nameWithType: NotificationCollectionManager.RemoveAllAsync(User)
+- uid: Microsoft.UI.Notifications.NotificationCollectionManager.RemoveAllAsync*
+  name: RemoveAllAsync
+  href: api/Microsoft.UI.Notifications.NotificationCollectionManager.html#Microsoft_UI_Notifications_NotificationCollectionManager_RemoveAllAsync_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationCollectionManager.RemoveAllAsync
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationCollectionManager.RemoveAllAsync
+  nameWithType: NotificationCollectionManager.RemoveAllAsync
+- uid: Microsoft.UI.Notifications.NotificationCollectionManager.RemoveAsync(System.String)
+  name: RemoveAsync(String)
+  href: api/Microsoft.UI.Notifications.NotificationCollectionManager.html#Microsoft_UI_Notifications_NotificationCollectionManager_RemoveAsync_System_String_
+  commentId: M:Microsoft.UI.Notifications.NotificationCollectionManager.RemoveAsync(System.String)
+  fullName: Microsoft.UI.Notifications.NotificationCollectionManager.RemoveAsync(System.String)
+  nameWithType: NotificationCollectionManager.RemoveAsync(String)
+- uid: Microsoft.UI.Notifications.NotificationCollectionManager.RemoveAsync(System.String,Windows.System.User)
+  name: RemoveAsync(String, User)
+  href: api/Microsoft.UI.Notifications.NotificationCollectionManager.html#Microsoft_UI_Notifications_NotificationCollectionManager_RemoveAsync_System_String_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.NotificationCollectionManager.RemoveAsync(System.String,Windows.System.User)
+  fullName: Microsoft.UI.Notifications.NotificationCollectionManager.RemoveAsync(System.String, Windows.System.User)
+  nameWithType: NotificationCollectionManager.RemoveAsync(String, User)
+- uid: Microsoft.UI.Notifications.NotificationCollectionManager.RemoveAsync*
+  name: RemoveAsync
+  href: api/Microsoft.UI.Notifications.NotificationCollectionManager.html#Microsoft_UI_Notifications_NotificationCollectionManager_RemoveAsync_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationCollectionManager.RemoveAsync
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationCollectionManager.RemoveAsync
+  nameWithType: NotificationCollectionManager.RemoveAsync
+- uid: Microsoft.UI.Notifications.NotificationCollectionManager.SaveAsync(Microsoft.UI.Notifications.NotificationCollection)
+  name: SaveAsync(NotificationCollection)
+  href: api/Microsoft.UI.Notifications.NotificationCollectionManager.html#Microsoft_UI_Notifications_NotificationCollectionManager_SaveAsync_Microsoft_UI_Notifications_NotificationCollection_
+  commentId: M:Microsoft.UI.Notifications.NotificationCollectionManager.SaveAsync(Microsoft.UI.Notifications.NotificationCollection)
+  fullName: Microsoft.UI.Notifications.NotificationCollectionManager.SaveAsync(Microsoft.UI.Notifications.NotificationCollection)
+  nameWithType: NotificationCollectionManager.SaveAsync(NotificationCollection)
+- uid: Microsoft.UI.Notifications.NotificationCollectionManager.SaveAsync(Microsoft.UI.Notifications.NotificationCollection,Windows.System.User)
+  name: SaveAsync(NotificationCollection, User)
+  href: api/Microsoft.UI.Notifications.NotificationCollectionManager.html#Microsoft_UI_Notifications_NotificationCollectionManager_SaveAsync_Microsoft_UI_Notifications_NotificationCollection_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.NotificationCollectionManager.SaveAsync(Microsoft.UI.Notifications.NotificationCollection,Windows.System.User)
+  fullName: Microsoft.UI.Notifications.NotificationCollectionManager.SaveAsync(Microsoft.UI.Notifications.NotificationCollection, Windows.System.User)
+  nameWithType: NotificationCollectionManager.SaveAsync(NotificationCollection, User)
+- uid: Microsoft.UI.Notifications.NotificationCollectionManager.SaveAsync*
+  name: SaveAsync
+  href: api/Microsoft.UI.Notifications.NotificationCollectionManager.html#Microsoft_UI_Notifications_NotificationCollectionManager_SaveAsync_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationCollectionManager.SaveAsync
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationCollectionManager.SaveAsync
+  nameWithType: NotificationCollectionManager.SaveAsync
+- uid: Microsoft.UI.Notifications.NotificationManager
+  name: NotificationManager
+  href: api/Microsoft.UI.Notifications.NotificationManager.html
+  commentId: T:Microsoft.UI.Notifications.NotificationManager
+  fullName: Microsoft.UI.Notifications.NotificationManager
+  nameWithType: NotificationManager
+- uid: Microsoft.UI.Notifications.NotificationManager.Clear
+  name: Clear()
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_Clear
+  commentId: M:Microsoft.UI.Notifications.NotificationManager.Clear
+  fullName: Microsoft.UI.Notifications.NotificationManager.Clear()
+  nameWithType: NotificationManager.Clear()
+- uid: Microsoft.UI.Notifications.NotificationManager.Clear(System.String)
+  name: Clear(String)
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_Clear_System_String_
+  commentId: M:Microsoft.UI.Notifications.NotificationManager.Clear(System.String)
+  fullName: Microsoft.UI.Notifications.NotificationManager.Clear(System.String)
+  nameWithType: NotificationManager.Clear(String)
+- uid: Microsoft.UI.Notifications.NotificationManager.Clear(Windows.System.User)
+  name: Clear(User)
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_Clear_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.NotificationManager.Clear(Windows.System.User)
+  fullName: Microsoft.UI.Notifications.NotificationManager.Clear(Windows.System.User)
+  nameWithType: NotificationManager.Clear(User)
+- uid: Microsoft.UI.Notifications.NotificationManager.Clear(Windows.System.User,System.String)
+  name: Clear(User, String)
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_Clear_Windows_System_User_System_String_
+  commentId: M:Microsoft.UI.Notifications.NotificationManager.Clear(Windows.System.User,System.String)
+  fullName: Microsoft.UI.Notifications.NotificationManager.Clear(Windows.System.User, System.String)
+  nameWithType: NotificationManager.Clear(User, String)
+- uid: Microsoft.UI.Notifications.NotificationManager.Clear*
+  name: Clear
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_Clear_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationManager.Clear
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationManager.Clear
+  nameWithType: NotificationManager.Clear
+- uid: Microsoft.UI.Notifications.NotificationManager.Collections
+  name: Collections
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_Collections
+  commentId: P:Microsoft.UI.Notifications.NotificationManager.Collections
+  fullName: Microsoft.UI.Notifications.NotificationManager.Collections
+  nameWithType: NotificationManager.Collections
+- uid: Microsoft.UI.Notifications.NotificationManager.Collections*
+  name: Collections
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_Collections_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationManager.Collections
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationManager.Collections
+  nameWithType: NotificationManager.Collections
+- uid: Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync
+  name: GetNotificationsAsync()
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_GetNotificationsAsync
+  commentId: M:Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync
+  fullName: Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync()
+  nameWithType: NotificationManager.GetNotificationsAsync()
+- uid: Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync(System.String)
+  name: GetNotificationsAsync(String)
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_GetNotificationsAsync_System_String_
+  commentId: M:Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync(System.String)
+  fullName: Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync(System.String)
+  nameWithType: NotificationManager.GetNotificationsAsync(String)
+- uid: Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync(System.String,Windows.System.User)
+  name: GetNotificationsAsync(String, User)
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_GetNotificationsAsync_System_String_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync(System.String,Windows.System.User)
+  fullName: Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync(System.String, Windows.System.User)
+  nameWithType: NotificationManager.GetNotificationsAsync(String, User)
+- uid: Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync(Windows.System.User)
+  name: GetNotificationsAsync(User)
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_GetNotificationsAsync_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync(Windows.System.User)
+  fullName: Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync(Windows.System.User)
+  nameWithType: NotificationManager.GetNotificationsAsync(User)
+- uid: Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync*
+  name: GetNotificationsAsync
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_GetNotificationsAsync_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync
+  nameWithType: NotificationManager.GetNotificationsAsync
+- uid: Microsoft.UI.Notifications.NotificationManager.RemoveByTag(System.String)
+  name: RemoveByTag(String)
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_RemoveByTag_System_String_
+  commentId: M:Microsoft.UI.Notifications.NotificationManager.RemoveByTag(System.String)
+  fullName: Microsoft.UI.Notifications.NotificationManager.RemoveByTag(System.String)
+  nameWithType: NotificationManager.RemoveByTag(String)
+- uid: Microsoft.UI.Notifications.NotificationManager.RemoveByTag(System.String,System.String)
+  name: RemoveByTag(String, String)
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_RemoveByTag_System_String_System_String_
+  commentId: M:Microsoft.UI.Notifications.NotificationManager.RemoveByTag(System.String,System.String)
+  fullName: Microsoft.UI.Notifications.NotificationManager.RemoveByTag(System.String, System.String)
+  nameWithType: NotificationManager.RemoveByTag(String, String)
+- uid: Microsoft.UI.Notifications.NotificationManager.RemoveByTag(System.String,System.String,Windows.System.User)
+  name: RemoveByTag(String, String, User)
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_RemoveByTag_System_String_System_String_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.NotificationManager.RemoveByTag(System.String,System.String,Windows.System.User)
+  fullName: Microsoft.UI.Notifications.NotificationManager.RemoveByTag(System.String, System.String, Windows.System.User)
+  nameWithType: NotificationManager.RemoveByTag(String, String, User)
+- uid: Microsoft.UI.Notifications.NotificationManager.RemoveByTag(System.String,Windows.System.User)
+  name: RemoveByTag(String, User)
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_RemoveByTag_System_String_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.NotificationManager.RemoveByTag(System.String,Windows.System.User)
+  fullName: Microsoft.UI.Notifications.NotificationManager.RemoveByTag(System.String, Windows.System.User)
+  nameWithType: NotificationManager.RemoveByTag(String, User)
+- uid: Microsoft.UI.Notifications.NotificationManager.RemoveByTag*
+  name: RemoveByTag
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_RemoveByTag_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationManager.RemoveByTag
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationManager.RemoveByTag
+  nameWithType: NotificationManager.RemoveByTag
+- uid: Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup(System.String,System.String)
+  name: RemoveByTagAndGroup(String, String)
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_RemoveByTagAndGroup_System_String_System_String_
+  commentId: M:Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup(System.String,System.String)
+  fullName: Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup(System.String, System.String)
+  nameWithType: NotificationManager.RemoveByTagAndGroup(String, String)
+- uid: Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup(System.String,System.String,System.String)
+  name: RemoveByTagAndGroup(String, String, String)
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_RemoveByTagAndGroup_System_String_System_String_System_String_
+  commentId: M:Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup(System.String,System.String,System.String)
+  fullName: Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup(System.String, System.String, System.String)
+  nameWithType: NotificationManager.RemoveByTagAndGroup(String, String, String)
+- uid: Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup(System.String,System.String,System.String,Windows.System.User)
+  name: RemoveByTagAndGroup(String, String, String, User)
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_RemoveByTagAndGroup_System_String_System_String_System_String_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup(System.String,System.String,System.String,Windows.System.User)
+  fullName: Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup(System.String, System.String, System.String, Windows.System.User)
+  nameWithType: NotificationManager.RemoveByTagAndGroup(String, String, String, User)
+- uid: Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup(System.String,System.String,Windows.System.User)
+  name: RemoveByTagAndGroup(String, String, User)
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_RemoveByTagAndGroup_System_String_System_String_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup(System.String,System.String,Windows.System.User)
+  fullName: Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup(System.String, System.String, Windows.System.User)
+  nameWithType: NotificationManager.RemoveByTagAndGroup(String, String, User)
+- uid: Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup*
+  name: RemoveByTagAndGroup
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_RemoveByTagAndGroup_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup
+  nameWithType: NotificationManager.RemoveByTagAndGroup
+- uid: Microsoft.UI.Notifications.NotificationManager.RemoveGroup(System.String)
+  name: RemoveGroup(String)
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_RemoveGroup_System_String_
+  commentId: M:Microsoft.UI.Notifications.NotificationManager.RemoveGroup(System.String)
+  fullName: Microsoft.UI.Notifications.NotificationManager.RemoveGroup(System.String)
+  nameWithType: NotificationManager.RemoveGroup(String)
+- uid: Microsoft.UI.Notifications.NotificationManager.RemoveGroup(System.String,System.String)
+  name: RemoveGroup(String, String)
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_RemoveGroup_System_String_System_String_
+  commentId: M:Microsoft.UI.Notifications.NotificationManager.RemoveGroup(System.String,System.String)
+  fullName: Microsoft.UI.Notifications.NotificationManager.RemoveGroup(System.String, System.String)
+  nameWithType: NotificationManager.RemoveGroup(String, String)
+- uid: Microsoft.UI.Notifications.NotificationManager.RemoveGroup(System.String,System.String,Windows.System.User)
+  name: RemoveGroup(String, String, User)
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_RemoveGroup_System_String_System_String_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.NotificationManager.RemoveGroup(System.String,System.String,Windows.System.User)
+  fullName: Microsoft.UI.Notifications.NotificationManager.RemoveGroup(System.String, System.String, Windows.System.User)
+  nameWithType: NotificationManager.RemoveGroup(String, String, User)
+- uid: Microsoft.UI.Notifications.NotificationManager.RemoveGroup(System.String,Windows.System.User)
+  name: RemoveGroup(String, User)
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_RemoveGroup_System_String_Windows_System_User_
+  commentId: M:Microsoft.UI.Notifications.NotificationManager.RemoveGroup(System.String,Windows.System.User)
+  fullName: Microsoft.UI.Notifications.NotificationManager.RemoveGroup(System.String, Windows.System.User)
+  nameWithType: NotificationManager.RemoveGroup(String, User)
+- uid: Microsoft.UI.Notifications.NotificationManager.RemoveGroup*
+  name: RemoveGroup
+  href: api/Microsoft.UI.Notifications.NotificationManager.html#Microsoft_UI_Notifications_NotificationManager_RemoveGroup_
+  commentId: Overload:Microsoft.UI.Notifications.NotificationManager.RemoveGroup
+  isSpec: "True"
+  fullName: Microsoft.UI.Notifications.NotificationManager.RemoveGroup
+  nameWithType: NotificationManager.RemoveGroup
+- uid: Microsoft.UI.Notifications.PeriodicUpdateInterval
+  name: PeriodicUpdateInterval
+  href: api/Microsoft.UI.Notifications.PeriodicUpdateInterval.html
+  commentId: T:Microsoft.UI.Notifications.PeriodicUpdateInterval
+  fullName: Microsoft.UI.Notifications.PeriodicUpdateInterval
+  nameWithType: PeriodicUpdateInterval
+- uid: Microsoft.UI.Notifications.PeriodicUpdateInterval.Daily
+  name: Daily
+  href: api/Microsoft.UI.Notifications.PeriodicUpdateInterval.html#Microsoft_UI_Notifications_PeriodicUpdateInterval_Daily
+  commentId: F:Microsoft.UI.Notifications.PeriodicUpdateInterval.Daily
+  fullName: Microsoft.UI.Notifications.PeriodicUpdateInterval.Daily
+  nameWithType: PeriodicUpdateInterval.Daily
+- uid: Microsoft.UI.Notifications.PeriodicUpdateInterval.Hourly
+  name: Hourly
+  href: api/Microsoft.UI.Notifications.PeriodicUpdateInterval.html#Microsoft_UI_Notifications_PeriodicUpdateInterval_Hourly
+  commentId: F:Microsoft.UI.Notifications.PeriodicUpdateInterval.Hourly
+  fullName: Microsoft.UI.Notifications.PeriodicUpdateInterval.Hourly
+  nameWithType: PeriodicUpdateInterval.Hourly

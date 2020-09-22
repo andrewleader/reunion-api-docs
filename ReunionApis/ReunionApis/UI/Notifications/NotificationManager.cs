@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.Foundation;
 using Windows.Foundation.Metadata;
 using Windows.System;
 
@@ -22,6 +23,7 @@ namespace Microsoft.UI.Notifications
         /// Clears all notifications within the specified collection.
         /// </summary>
         /// <param name="collectionId"></param>
+        [DefaultOverload]
         public static void Clear(string collectionId)
         {
 
@@ -31,7 +33,7 @@ namespace Microsoft.UI.Notifications
         /// Clears all notifications for the specified user.
         /// </summary>
         /// <param name="user"></param>
-        public static void ClearForUser(User user)
+        public static void Clear(User user)
         {
 
         }
@@ -41,7 +43,7 @@ namespace Microsoft.UI.Notifications
         /// </summary>
         /// <param name="user"></param>
         /// <param name="collectionId"></param>
-        public static void ClearForUser(User user, string collectionId)
+        public static void Clear(User user, string collectionId)
         {
 
         }
@@ -105,7 +107,53 @@ namespace Microsoft.UI.Notifications
         }
 
         public static void RemoveGroup(string group, string collectionId, User user)
-        { 
+        {
         }
+
+        /// <summary>
+        /// Gets all current notifications that are still visible to the user.
+        /// </summary>
+        /// <returns></returns>
+        public static IAsyncOperation<IReadOnlyList<Notification>> GetNotificationsAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// Gets all current notifications for the specified collection that are still visible to the user.
+        /// </summary>
+        /// <param name="collectionId"></param>
+        /// <returns></returns>
+        [DefaultOverload]
+        public static IAsyncOperation<IReadOnlyList<Notification>> GetNotificationsAsync(string collectionId)
+        {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// Gets all current notifications for the specified user that are still visible to the user.
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns></returns>
+        public static IAsyncOperation<IReadOnlyList<Notification>> GetNotificationsAsync(User user)
+        {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// Gets all current notifications for the specified collection and user that are still visible to the user.
+        /// </summary>
+        /// <param name="collectionId"></param>
+        /// <param name="user"></param>
+        /// <returns></returns>
+        public static IAsyncOperation<IReadOnlyList<Notification>> GetNotificationsAsync(string collectionId, User user)
+        {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// Gets the collections manager.
+        /// </summary>
+        public static NotificationCollectionManager Collections { get; }
     }
 }

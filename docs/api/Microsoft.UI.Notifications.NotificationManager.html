@@ -1,0 +1,1008 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class NotificationManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class NotificationManager
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../articles/intro.html" title="Articles">Articles</a>
+                      </li>
+                      <li>
+                          <a href="../api/index.html" title="Api Documentation">Api Documentation</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Microsoft.UI.Notifications.html" title="Microsoft.UI.Notifications" class="">Microsoft.UI.Notifications</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Microsoft.UI.Notifications.BadgeManager.html" title="BadgeManager" class="">BadgeManager</a>
+                          </li>
+                          <li class="">
+                            <a href="Microsoft.UI.Notifications.BadgeValue.html" title="BadgeValue" class="">BadgeValue</a>
+                          </li>
+                          <li class="">
+                            <a href="Microsoft.UI.Notifications.Notification.html" title="Notification" class="">Notification</a>
+                          </li>
+                          <li class="">
+                            <a href="Microsoft.UI.Notifications.NotificationBuilder.html" title="NotificationBuilder" class="">NotificationBuilder</a>
+                          </li>
+                          <li class="">
+                            <a href="Microsoft.UI.Notifications.NotificationCollection.html" title="NotificationCollection" class="">NotificationCollection</a>
+                          </li>
+                          <li class="">
+                            <a href="Microsoft.UI.Notifications.NotificationCollectionManager.html" title="NotificationCollectionManager" class="">NotificationCollectionManager</a>
+                          </li>
+                          <li class="active">
+                            <a href="Microsoft.UI.Notifications.NotificationManager.html" title="NotificationManager" class="active">NotificationManager</a>
+                          </li>
+                          <li class="">
+                            <a href="Microsoft.UI.Notifications.PeriodicUpdateInterval.html" title="PeriodicUpdateInterval" class="">PeriodicUpdateInterval</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Microsoft.UI.Notifications.NotificationManager">
+  
+  
+  <h1 id="Microsoft_UI_Notifications_NotificationManager" data-uid="Microsoft.UI.Notifications.NotificationManager" class="text-break">Class NotificationManager
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">NotificationManager</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Microsoft.UI.Notifications.html">Microsoft.UI.Notifications</a></h6>
+  <h6><strong>Assembly</strong>: Microsoft.dll</h6>
+  <h5 id="Microsoft_UI_Notifications_NotificationManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class NotificationManager</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_Collections.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.Collections%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L157">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_Collections_" data-uid="Microsoft.UI.Notifications.NotificationManager.Collections*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_Collections" data-uid="Microsoft.UI.Notifications.NotificationManager.Collections">Collections</h4>
+  <div class="markdown level1 summary"><p>Gets the collections manager.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static NotificationCollectionManager Collections { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.UI.Notifications.NotificationCollectionManager.html">NotificationCollectionManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_Clear.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L17">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_Clear_" data-uid="Microsoft.UI.Notifications.NotificationManager.Clear*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_Clear" data-uid="Microsoft.UI.Notifications.NotificationManager.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Clear all notifications. Note that if you're using collections, this only clears your main notifications, and not any collection notifications.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Clear()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_Clear_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.Clear(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L26">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_Clear_" data-uid="Microsoft.UI.Notifications.NotificationManager.Clear*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_Clear_System_String_" data-uid="Microsoft.UI.Notifications.NotificationManager.Clear(System.String)">Clear(String)</h4>
+  <div class="markdown level1 summary"><p>Clears all notifications within the specified collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DefaultOverload]
+public static void Clear(string collectionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">collectionId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_Clear_Windows_System_User_.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.Clear(Windows.System.User)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L36">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_Clear_" data-uid="Microsoft.UI.Notifications.NotificationManager.Clear*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_Clear_Windows_System_User_" data-uid="Microsoft.UI.Notifications.NotificationManager.Clear(Windows.System.User)">Clear(User)</h4>
+  <div class="markdown level1 summary"><p>Clears all notifications for the specified user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Clear(User user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.System.User</span></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_Clear_Windows_System_User_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.Clear(Windows.System.User%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L46">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_Clear_" data-uid="Microsoft.UI.Notifications.NotificationManager.Clear*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_Clear_Windows_System_User_System_String_" data-uid="Microsoft.UI.Notifications.NotificationManager.Clear(Windows.System.User,System.String)">Clear(User, String)</h4>
+  <div class="markdown level1 summary"><p>Clears all notifications for the specified user within the specified collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Clear(User user, string collectionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.System.User</span></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">collectionId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_GetNotificationsAsync.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L117">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_GetNotificationsAsync_" data-uid="Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_GetNotificationsAsync" data-uid="Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync">GetNotificationsAsync()</h4>
+  <div class="markdown level1 summary"><p>Gets all current notifications that are still visible to the user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IAsyncOperation&lt;IReadOnlyList&lt;Notification&gt;&gt; GetNotificationsAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.Foundation.IAsyncOperation</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="Microsoft.UI.Notifications.Notification.html">Notification</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_GetNotificationsAsync_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L127">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_GetNotificationsAsync_" data-uid="Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_GetNotificationsAsync_System_String_" data-uid="Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync(System.String)">GetNotificationsAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Gets all current notifications for the specified collection that are still visible to the user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DefaultOverload]
+public static IAsyncOperation&lt;IReadOnlyList&lt;Notification&gt;&gt; GetNotificationsAsync(string collectionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">collectionId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.Foundation.IAsyncOperation</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="Microsoft.UI.Notifications.Notification.html">Notification</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_GetNotificationsAsync_System_String_Windows_System_User_.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync(System.String%2CWindows.System.User)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L149">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_GetNotificationsAsync_" data-uid="Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_GetNotificationsAsync_System_String_Windows_System_User_" data-uid="Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync(System.String,Windows.System.User)">GetNotificationsAsync(String, User)</h4>
+  <div class="markdown level1 summary"><p>Gets all current notifications for the specified collection and user that are still visible to the user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IAsyncOperation&lt;IReadOnlyList&lt;Notification&gt;&gt; GetNotificationsAsync(string collectionId, User user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">collectionId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Windows.System.User</span></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.Foundation.IAsyncOperation</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="Microsoft.UI.Notifications.Notification.html">Notification</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_GetNotificationsAsync_Windows_System_User_.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync(Windows.System.User)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L138">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_GetNotificationsAsync_" data-uid="Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_GetNotificationsAsync_Windows_System_User_" data-uid="Microsoft.UI.Notifications.NotificationManager.GetNotificationsAsync(Windows.System.User)">GetNotificationsAsync(User)</h4>
+  <div class="markdown level1 summary"><p>Gets all current notifications for the specified user that are still visible to the user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IAsyncOperation&lt;IReadOnlyList&lt;Notification&gt;&gt; GetNotificationsAsync(User user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.System.User</span></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.Foundation.IAsyncOperation</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="Microsoft.UI.Notifications.Notification.html">Notification</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_RemoveByTag_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.RemoveByTag(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L51">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_RemoveByTag_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveByTag*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_RemoveByTag_System_String_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveByTag(System.String)">RemoveByTag(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveByTag(string tag)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tag</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_RemoveByTag_System_String_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.RemoveByTag(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L56">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_RemoveByTag_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveByTag*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_RemoveByTag_System_String_System_String_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveByTag(System.String,System.String)">RemoveByTag(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DefaultOverload]
+public static void RemoveByTag(string tag, string collectionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tag</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">collectionId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_RemoveByTag_System_String_System_String_Windows_System_User_.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.RemoveByTag(System.String%2CSystem.String%2CWindows.System.User)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L67">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_RemoveByTag_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveByTag*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_RemoveByTag_System_String_System_String_Windows_System_User_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveByTag(System.String,System.String,Windows.System.User)">RemoveByTag(String, String, User)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveByTag(string tag, string collectionId, User user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tag</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">collectionId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Windows.System.User</span></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_RemoveByTag_System_String_Windows_System_User_.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.RemoveByTag(System.String%2CWindows.System.User)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L62">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_RemoveByTag_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveByTag*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_RemoveByTag_System_String_Windows_System_User_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveByTag(System.String,Windows.System.User)">RemoveByTag(String, User)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveByTag(string tag, User user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tag</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Windows.System.User</span></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_RemoveByTagAndGroup_System_String_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L72">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_RemoveByTagAndGroup_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_RemoveByTagAndGroup_System_String_System_String_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup(System.String,System.String)">RemoveByTagAndGroup(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveByTagAndGroup(string tag, string group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tag</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_RemoveByTagAndGroup_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup(System.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L77">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_RemoveByTagAndGroup_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_RemoveByTagAndGroup_System_String_System_String_System_String_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup(System.String,System.String,System.String)">RemoveByTagAndGroup(String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DefaultOverload]
+public static void RemoveByTagAndGroup(string tag, string group, string collectionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tag</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">collectionId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_RemoveByTagAndGroup_System_String_System_String_System_String_Windows_System_User_.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup(System.String%2CSystem.String%2CSystem.String%2CWindows.System.User)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L88">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_RemoveByTagAndGroup_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_RemoveByTagAndGroup_System_String_System_String_System_String_Windows_System_User_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup(System.String,System.String,System.String,Windows.System.User)">RemoveByTagAndGroup(String, String, String, User)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveByTagAndGroup(string tag, string group, string collectionId, User user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tag</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">collectionId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Windows.System.User</span></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_RemoveByTagAndGroup_System_String_System_String_Windows_System_User_.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup(System.String%2CSystem.String%2CWindows.System.User)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L83">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_RemoveByTagAndGroup_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_RemoveByTagAndGroup_System_String_System_String_Windows_System_User_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveByTagAndGroup(System.String,System.String,Windows.System.User)">RemoveByTagAndGroup(String, String, User)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveByTagAndGroup(string tag, string group, User user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tag</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Windows.System.User</span></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_RemoveGroup_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.RemoveGroup(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L93">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_RemoveGroup_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveGroup*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_RemoveGroup_System_String_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveGroup(System.String)">RemoveGroup(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveGroup(string group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_RemoveGroup_System_String_System_String_.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.RemoveGroup(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L98">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_RemoveGroup_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveGroup*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_RemoveGroup_System_String_System_String_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveGroup(System.String,System.String)">RemoveGroup(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DefaultOverload]
+public static void RemoveGroup(string group, string collectionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">collectionId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_RemoveGroup_System_String_System_String_Windows_System_User_.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.RemoveGroup(System.String%2CSystem.String%2CWindows.System.User)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L109">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_RemoveGroup_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveGroup*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_RemoveGroup_System_String_System_String_Windows_System_User_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveGroup(System.String,System.String,Windows.System.User)">RemoveGroup(String, String, User)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveGroup(string group, string collectionId, User user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">collectionId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Windows.System.User</span></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager_RemoveGroup_System_String_Windows_System_User_.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager.RemoveGroup(System.String%2CWindows.System.User)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L104">View Source</a>
+  </span>
+  <a id="Microsoft_UI_Notifications_NotificationManager_RemoveGroup_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveGroup*"></a>
+  <h4 id="Microsoft_UI_Notifications_NotificationManager_RemoveGroup_System_String_Windows_System_User_" data-uid="Microsoft.UI.Notifications.NotificationManager.RemoveGroup(System.String,Windows.System.User)">RemoveGroup(String, User)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveGroup(string group, User user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Windows.System.User</span></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/andrewleader/reunion-api-docs/new/master/apiSpec/new?filename=Microsoft_UI_Notifications_NotificationManager.md&amp;value=---%0Auid%3A%20Microsoft.UI.Notifications.NotificationManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/andrewleader/reunion-api-docs/blob/master/ReunionApis/ReunionApis/UI/Notifications/NotificationManager.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
