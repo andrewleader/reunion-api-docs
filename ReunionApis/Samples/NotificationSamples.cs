@@ -67,10 +67,10 @@ namespace Samples
             NotificationManager.Clear("collectionId");
 
             // Clear notifications for a user
-            NotificationManager.ClearForUser(user);
+            NotificationManager.Clear(user);
 
             // Clear notifications for a user and collection
-            NotificationManager.ClearForUser(user, "collectionId");
+            NotificationManager.Clear(user, "collectionId");
         }
 
         public void RemoveNotificationByTag()
